@@ -7,6 +7,7 @@ img2 = cv2.imread('GF2.jpg', 0)
 
 # ORB is intended to be rotation invariant and deals well with noise, while being much faster than other feature detectors of the past ages.
 # this detects if a point on the image is a feature or not.
+# The accuracy doesn't change significantly with the change in color
 orb = cv2.ORB_create()
 #this is the detector of similarities
 
